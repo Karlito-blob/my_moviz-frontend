@@ -13,7 +13,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch('https://my-moviz-backend-ashen-nine.vercel.app')
+    fetch('https://my-moviz-backend-ashen-nine.vercel.app/')
     .then(response => response.json())
     .then(data => {
       console.log(data);
